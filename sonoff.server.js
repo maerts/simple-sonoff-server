@@ -6,7 +6,7 @@ var server = express();
 var bodyParser = require('body-parser')
 var http = require('http');
 
-const config = JSON.parse(fs.readFileSync(path.resolve(__dirname, './sonoff.config.json')));
+const config = JSON.parse(fs.readFileSync(path.resolve('/config/sonoff.config.json')));
 
 config.logger = {
     log: console.log,
