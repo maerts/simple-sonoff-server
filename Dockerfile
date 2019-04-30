@@ -1,4 +1,4 @@
-FROM arm32v7/node:9.3-slim
+FROM node:10-alpine
 
 ENV HTTP_PORT=8080
 ENV HTTPS_PORT=8443
